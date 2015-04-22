@@ -1,0 +1,7 @@
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\bin\Debug\Funciones.dll
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\bin\Debug\Funciones.pdb
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\bin\Debug\DBconection.dll
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\bin\Debug\DBconection.pdb
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\obj\Debug\Funciones.dll
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\Funciones\obj\Debug\Funciones.pdb

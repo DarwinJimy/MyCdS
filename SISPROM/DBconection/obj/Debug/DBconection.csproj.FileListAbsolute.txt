@@ -1,0 +1,5 @@
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\DBconection\bin\Debug\DBconection.dll.config
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\DBconection\bin\Debug\DBconection.dll
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\DBconection\bin\Debug\DBconection.pdb
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\DBconection\obj\Debug\DBconection.dll
+C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\DBconection\obj\Debug\DBconection.pdb
