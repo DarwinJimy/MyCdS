@@ -16,3 +16,21 @@ C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de softwar
 C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\LayerFrames\obj\Debug\LayerFrames.exe
 C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\LayerFrames\obj\Debug\LayerFrames.pdb
 C:\Users\Darwin Jimy\Desktop\UTP_2015-I\Mantenimiento y configuracion de software\Proyecto\desarrollo\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmCurso.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\SISPRO_db.mdb
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.exe.config
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.exe
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.pdb
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\DBconection.dll
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\Funciones.dll
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\DBconection.pdb
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\bin\Debug\Funciones.pdb
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmCurso.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmInicio.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmLogin.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmPrincipal.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmRegistro.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.Properties.Resources.resources
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.exe
+C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.pdb
