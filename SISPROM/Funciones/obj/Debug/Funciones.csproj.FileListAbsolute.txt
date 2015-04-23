@@ -12,3 +12,10 @@ C:\Users\Usuario\Desktop\MyCdS\SISPROM\Funciones\bin\Debug\DBconection.pdb
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\Funciones\obj\Debug\Funciones.dll
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\Funciones\obj\Debug\Funciones.pdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\bin\Debug\Funciones.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\bin\Debug\Funciones.pdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\bin\Debug\DBconection.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\bin\Debug\DBconection.pdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\obj\Debug\Funciones.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Funciones\obj\Debug\Funciones.pdb
