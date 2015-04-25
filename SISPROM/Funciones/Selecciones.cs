@@ -46,7 +46,7 @@ namespace Funciones
 
         public static string hay_Notas_curso(int codigoCurso)
         {
-            string consulta = "Select * from notafinal where = '" + codigoCurso + "';";
+            string consulta = "Select * from notafinal where codigo_curso = " + codigoCurso + ";";
             return consulta;
         }
     }

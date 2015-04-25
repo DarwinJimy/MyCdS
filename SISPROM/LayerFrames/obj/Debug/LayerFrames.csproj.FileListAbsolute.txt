@@ -34,10 +34,8 @@ C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.Propert
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.csproj.GenerateResource.Cache
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.exe
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.pdb
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.exe.config
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.exe
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.pdb
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\bin\Debug\SISPRO_db.mdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.exe.config
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.exe
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\bin\Debug\LayerFrames.pdb
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\bin\Debug\DBconection.dll
@@ -48,7 +46,10 @@ C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerF
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmCurso.resources
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmInicio.resources
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmLogin.resources
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmNuevasNotas.resources
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmPrincipal.resources
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.FrmRegistro.resources
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.Properties.Resources.resources
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.csproj.GenerateResource.Cache
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.exe
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\LayerFrames\obj\Debug\LayerFrames.pdb

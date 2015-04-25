@@ -14,17 +14,20 @@ namespace LayerFrames
 {
     public partial class FrmCurso : Form
     {
+        FrmNuevasNotas nNotas = new FrmNuevasNotas();
         public FrmCurso()
         {
             InitializeComponent();
+           
         }
 
         private void FrmCurso_Load(object sender, EventArgs e)
         {
 
-
+            TxtNombreCurso.CharacterCasing = CharacterCasing.Upper;
             config_DGV();            
             TxtCodigoAlumno.Text = LblCodigo.Text;
+            cargarDatosCurso(LblCodigo.Text);
         }
 
         private void config_DGV()
@@ -47,6 +50,11 @@ namespace LayerFrames
         private void BtnNuevoCurso_Click(object sender, EventArgs e)
         {
             TxtCodigoAlumno.Text = LblCodigo.Text;
+            LblCodigoCurso.Text = "---";
+
+            TxtNombreCurso.Enabled = true;
+            TxtNombreCurso.Clear();
+            TxtNombreCurso.Focus();
             cargarDatosCurso(LblCodigo.Text);
             config_DGV();
         }
@@ -74,7 +82,8 @@ namespace LayerFrames
         
         private void DGVCursos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            LblCodigo.Text = DGVCursos.CurrentRow.Cells[0].Value.ToString();
+            TxtNombreCurso.Enabled = false;
+            LblCodigoCurso.Text = DGVCursos.CurrentRow.Cells[0].Value.ToString();
             TxtNombreCurso.Text = DGVCursos.CurrentRow.Cells[1].Value.ToString();
             TxtCodigoAlumno.Text = DGVCursos.CurrentRow.Cells[2].Value.ToString();
         }
@@ -114,17 +123,42 @@ namespace LayerFrames
                 
                 OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
                 //con.Open();
-                string consulta = Selecciones.hay_Notas_curso(int.Parse(TxtNombreCurso.Text));
+                string consulta = Selecciones.hay_Notas_curso(int.Parse(LblCodigoCurso.Text));
                 OleDbCommand cmd = new OleDbCommand(consulta, con);
+                OleDbDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        
 
-                cmd.ExecuteNonQuery();
+                        MessageBox.Show("Si hay notassss");
+
+
+                                              
+                    }
+                }
+                else
+                {
+                    nNotas.Show();
+                    nNotas.usuario_Actual(LblUser.Text.ToString(), LblCodigo.Text.ToString());
+                    nNotas.curso_Actual(LblCodigoCurso.Text.ToString(), TxtNombreCurso.Text.ToString());
+
+                    Close();
+                    MessageBox.Show("No hay notas para este curso", "SISPROM");
+
+                }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                
-                throw;
+                MessageBox.Show(ex.Message);
             }
+
+        }
+
+        private void TxtNombreCurso_TextChanged(object sender, EventArgs e)
+        {
 
         }
         

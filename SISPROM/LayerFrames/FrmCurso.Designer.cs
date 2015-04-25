@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.LblCodigo = new System.Windows.Forms.Label();
             this.LblUser = new System.Windows.Forms.Label();
@@ -55,7 +56,7 @@
             this.groupBox1.Controls.Add(this.LblUser);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(778, 59);
+            this.groupBox1.Size = new System.Drawing.Size(735, 59);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Usuario";
@@ -65,7 +66,7 @@
             this.LblCodigo.AutoSize = true;
             this.LblCodigo.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold);
             this.LblCodigo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.LblCodigo.Location = new System.Drawing.Point(663, 29);
+            this.LblCodigo.Location = new System.Drawing.Point(612, 29);
             this.LblCodigo.Name = "LblCodigo";
             this.LblCodigo.Size = new System.Drawing.Size(109, 20);
             this.LblCodigo.TabIndex = 2;
@@ -86,12 +87,24 @@
             // 
             this.DGVCursos.AllowUserToAddRows = false;
             this.DGVCursos.AllowUserToDeleteRows = false;
+            this.DGVCursos.AllowUserToResizeColumns = false;
+            this.DGVCursos.AllowUserToResizeRows = false;
+            this.DGVCursos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkRed;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGVCursos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.DGVCursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVCursos.Location = new System.Drawing.Point(425, 86);
+            this.DGVCursos.Location = new System.Drawing.Point(425, 112);
             this.DGVCursos.Name = "DGVCursos";
             this.DGVCursos.ReadOnly = true;
+            this.DGVCursos.RowHeadersVisible = false;
             this.DGVCursos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGVCursos.Size = new System.Drawing.Size(365, 235);
+            this.DGVCursos.Size = new System.Drawing.Size(322, 178);
             this.DGVCursos.TabIndex = 1;
             this.DGVCursos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVCursos_CellContentClick);
             // 
@@ -120,6 +133,7 @@
             this.TxtNombreCurso.Name = "TxtNombreCurso";
             this.TxtNombreCurso.Size = new System.Drawing.Size(278, 20);
             this.TxtNombreCurso.TabIndex = 4;
+            this.TxtNombreCurso.TextChanged += new System.EventHandler(this.TxtNombreCurso_TextChanged);
             // 
             // LblCodigoCurso
             // 
@@ -203,7 +217,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(802, 343);
+            this.ClientSize = new System.Drawing.Size(760, 305);
             this.Controls.Add(this.BtnNotas_curso);
             this.Controls.Add(this.BtnGuardarCurso);
             this.Controls.Add(this.BtnNuevoCurso);
@@ -213,7 +227,9 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCurso";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCurso";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.FrmCurso_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
