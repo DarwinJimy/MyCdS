@@ -37,11 +37,12 @@
             this.TxtNombreCurso = new System.Windows.Forms.TextBox();
             this.LblCodigoCurso = new System.Windows.Forms.Label();
             this.TxtCodigoAlumno = new System.Windows.Forms.TextBox();
-            this.BtnGuardarCurso = new System.Windows.Forms.Button();
-            this.BtnNuevoCurso = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cursoTableAdapter1 = new DBconection.SISPRO_dbDataSetTableAdapters.cursoTableAdapter();
             this.sisprO_dbDataSet1 = new DBconection.SISPRO_dbDataSet();
+            this.BtnNotas_curso = new System.Windows.Forms.Button();
+            this.BtnGuardarCurso = new System.Windows.Forms.Button();
+            this.BtnNuevoCurso = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVCursos)).BeginInit();
             this.panel1.SuspendLayout();
@@ -137,32 +138,6 @@
             this.TxtCodigoAlumno.Size = new System.Drawing.Size(100, 20);
             this.TxtCodigoAlumno.TabIndex = 7;
             // 
-            // BtnGuardarCurso
-            // 
-            this.BtnGuardarCurso.Image = global::LayerFrames.Properties.Resources.Save_32;
-            this.BtnGuardarCurso.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnGuardarCurso.Location = new System.Drawing.Point(163, 237);
-            this.BtnGuardarCurso.Name = "BtnGuardarCurso";
-            this.BtnGuardarCurso.Size = new System.Drawing.Size(55, 53);
-            this.BtnGuardarCurso.TabIndex = 9;
-            this.BtnGuardarCurso.Text = "Guardar";
-            this.BtnGuardarCurso.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnGuardarCurso.UseVisualStyleBackColor = true;
-            this.BtnGuardarCurso.Click += new System.EventHandler(this.BtnGuardarCurso_Click);
-            // 
-            // BtnNuevoCurso
-            // 
-            this.BtnNuevoCurso.Image = global::LayerFrames.Properties.Resources.agregar_nuevo;
-            this.BtnNuevoCurso.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BtnNuevoCurso.Location = new System.Drawing.Point(97, 237);
-            this.BtnNuevoCurso.Name = "BtnNuevoCurso";
-            this.BtnNuevoCurso.Size = new System.Drawing.Size(51, 53);
-            this.BtnNuevoCurso.TabIndex = 8;
-            this.BtnNuevoCurso.Text = "Nuevo";
-            this.BtnNuevoCurso.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnNuevoCurso.UseVisualStyleBackColor = true;
-            this.BtnNuevoCurso.Click += new System.EventHandler(this.BtnNuevoCurso_Click);
-            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -184,12 +159,52 @@
             this.sisprO_dbDataSet1.DataSetName = "SISPRO_dbDataSet";
             this.sisprO_dbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // BtnNotas_curso
+            // 
+            this.BtnNotas_curso.Image = global::LayerFrames.Properties.Resources.notas_curso;
+            this.BtnNotas_curso.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnNotas_curso.Location = new System.Drawing.Point(349, 237);
+            this.BtnNotas_curso.Name = "BtnNotas_curso";
+            this.BtnNotas_curso.Size = new System.Drawing.Size(59, 53);
+            this.BtnNotas_curso.TabIndex = 11;
+            this.BtnNotas_curso.Text = "Notas";
+            this.BtnNotas_curso.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnNotas_curso.UseVisualStyleBackColor = true;
+            this.BtnNotas_curso.Click += new System.EventHandler(this.BtnNotas_curso_Click);
+            // 
+            // BtnGuardarCurso
+            // 
+            this.BtnGuardarCurso.Image = global::LayerFrames.Properties.Resources.Save_32;
+            this.BtnGuardarCurso.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnGuardarCurso.Location = new System.Drawing.Point(89, 237);
+            this.BtnGuardarCurso.Name = "BtnGuardarCurso";
+            this.BtnGuardarCurso.Size = new System.Drawing.Size(55, 53);
+            this.BtnGuardarCurso.TabIndex = 9;
+            this.BtnGuardarCurso.Text = "Guardar";
+            this.BtnGuardarCurso.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnGuardarCurso.UseVisualStyleBackColor = true;
+            this.BtnGuardarCurso.Click += new System.EventHandler(this.BtnGuardarCurso_Click);
+            // 
+            // BtnNuevoCurso
+            // 
+            this.BtnNuevoCurso.Image = global::LayerFrames.Properties.Resources.agregar_nuevo;
+            this.BtnNuevoCurso.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnNuevoCurso.Location = new System.Drawing.Point(32, 237);
+            this.BtnNuevoCurso.Name = "BtnNuevoCurso";
+            this.BtnNuevoCurso.Size = new System.Drawing.Size(51, 53);
+            this.BtnNuevoCurso.TabIndex = 8;
+            this.BtnNuevoCurso.Text = "Nuevo";
+            this.BtnNuevoCurso.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnNuevoCurso.UseVisualStyleBackColor = true;
+            this.BtnNuevoCurso.Click += new System.EventHandler(this.BtnNuevoCurso_Click);
+            // 
             // FrmCurso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(802, 343);
+            this.Controls.Add(this.BtnNotas_curso);
             this.Controls.Add(this.BtnGuardarCurso);
             this.Controls.Add(this.BtnNuevoCurso);
             this.Controls.Add(this.TxtNombreCurso);
@@ -227,5 +242,6 @@
         private System.Windows.Forms.Panel panel1;
         private DBconection.SISPRO_dbDataSetTableAdapters.cursoTableAdapter cursoTableAdapter1;
         private DBconection.SISPRO_dbDataSet sisprO_dbDataSet1;
+        private System.Windows.Forms.Button BtnNotas_curso;
     }
 }

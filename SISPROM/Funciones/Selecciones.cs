@@ -40,7 +40,13 @@ namespace Funciones
         }
         public static string Seleccion_Cursos(string codigo)
         {
-            string consulta = "Select nombre_curso, codigo_alumno from curso where codigo_alumno = '"+codigo+"';";
+            string consulta = "Select codigo_curso, nombre_curso, codigo_alumno from curso where codigo_alumno = '"+codigo+"';";
+            return consulta;
+        }
+
+        public static string hay_Notas_curso(int codigoCurso)
+        {
+            string consulta = "Select * from notafinal where = '" + codigoCurso + "';";
             return consulta;
         }
     }

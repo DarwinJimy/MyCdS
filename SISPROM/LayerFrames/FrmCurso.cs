@@ -29,11 +29,13 @@ namespace LayerFrames
 
         private void config_DGV()
         {
-            DGVCursos.Columns[0].Width = 230;
-            DGVCursos.Columns[1].Width = 90;
-            DGVCursos.Columns[0].HeaderText = "CURSO";
-            DGVCursos.Columns[1].HeaderText = "ALUMNO";
-
+            //DGVCursos.c
+            DGVCursos.Columns[0].Width = 30;
+            DGVCursos.Columns[1].Width = 200;
+            DGVCursos.Columns[2].Width = 90;
+            DGVCursos.Columns[0].HeaderText = "ID";
+            DGVCursos.Columns[1].HeaderText = "CURSO";
+            DGVCursos.Columns[2].HeaderText = "ALUMNO";
         }
         public void usuario_Actual_Curso(string user, string codigo)
         {
@@ -72,8 +74,9 @@ namespace LayerFrames
         
         private void DGVCursos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            TxtNombreCurso.Text = DGVCursos.CurrentRow.Cells[0].Value.ToString();
-            TxtCodigoAlumno.Text = DGVCursos.CurrentRow.Cells[1].Value.ToString();
+            LblCodigo.Text = DGVCursos.CurrentRow.Cells[0].Value.ToString();
+            TxtNombreCurso.Text = DGVCursos.CurrentRow.Cells[1].Value.ToString();
+            TxtCodigoAlumno.Text = DGVCursos.CurrentRow.Cells[2].Value.ToString();
         }
 
         private void cargarDatosCurso(string codigo)
@@ -100,6 +103,27 @@ namespace LayerFrames
             {
 
                 MessageBox.Show(sds.Message);
+            }
+
+        }
+
+        private void BtnNotas_curso_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                
+                OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
+                //con.Open();
+                string consulta = Selecciones.hay_Notas_curso(int.Parse(TxtNombreCurso.Text));
+                OleDbCommand cmd = new OleDbCommand(consulta, con);
+
+                cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception)
+            {
+                
+                throw;
             }
 
         }

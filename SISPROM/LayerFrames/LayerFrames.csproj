@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>UTP.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -129,6 +132,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\notas_curso.png" />
+    <Content Include="UTP.ico" />
     <None Include="Resources\login.png" />
     <None Include="Resources\session.png" />
     <None Include="Resources\registrar.png" />
@@ -138,6 +143,7 @@
     <None Include="Resources\notas1.png" />
     <None Include="Resources\agregar_nuevo.png" />
     <None Include="Resources\Save_32.png" />
+    <Content Include="Resources\UTP.ico" />
     <Content Include="SISPRO_db.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

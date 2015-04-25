@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistro));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.TxtApellidoMaterno = new System.Windows.Forms.TextBox();
             this.TxtApellidoPaterno = new System.Windows.Forms.TextBox();
@@ -234,8 +235,11 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRegistro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro de nuevo Alumno";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.FrmRegistro_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
