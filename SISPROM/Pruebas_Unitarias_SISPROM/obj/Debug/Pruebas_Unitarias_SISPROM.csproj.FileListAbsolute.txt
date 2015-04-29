@@ -1,0 +1,7 @@
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\Pruebas_Unitarias_SISPROM.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\Pruebas_Unitarias_SISPROM.pdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\Funciones.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\Funciones.pdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\obj\Debug\Pruebas_Unitarias_SISPROM.csprojResolveAssemblyReference.cache
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\obj\Debug\Pruebas_Unitarias_SISPROM.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\obj\Debug\Pruebas_Unitarias_SISPROM.pdb

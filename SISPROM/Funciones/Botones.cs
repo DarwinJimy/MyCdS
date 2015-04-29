@@ -7,21 +7,23 @@ using System.Windows.Forms;
 
 namespace Funciones
 {
-    public class Botones
+    public  class Botones
     {
-        public static void activar_desactivar_botones(Button btn1, Button btn2)
+        public  bool activar_desactivar_botones(Button btn1, Button btn2)
         {
             if (btn1.Enabled == true && btn2.Enabled == true)
             {
                 btn1.Enabled = false;
                 btn2.Enabled = false;
-
+                return true;
             }
-            else if (btn1.Enabled == false && btn2.Enabled == false)
+            if (btn1.Enabled == false && btn2.Enabled == false)
             {
                 btn1.Enabled = true;
                 btn2.Enabled = true;
+                return true;
             }
+            return false;
         }
     }
 }
