@@ -49,8 +49,8 @@ namespace LayerFrames
             {
                 OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
                 //con.Open();
-                string consultaCurso = Selecciones.Existe_curso_usuario(LblCodigo.Text.ToString());
-                string consulta_User = Selecciones.Existe_Usuario(LblCodigo.Text.ToString());
+                string consultaCurso = CrearConsultas.Existe_curso_usuario(LblCodigo.Text.ToString());
+                string consulta_User = CrearConsultas.Existe_Usuario(LblCodigo.Text.ToString());
                 
                 OleDbCommand cmd = new OleDbCommand(consultaCurso, con);
                 OleDbCommand comand = new OleDbCommand(consulta_User, con);

@@ -67,7 +67,7 @@ namespace LayerFrames
             {
                 OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
                 //con.Open();
-                string consulta = Selecciones.Insertar_nuevo_curso(TxtCodigoAlumno.Text.ToString(),TxtNombreCurso.Text.ToString());
+                string consulta = CrearConsultas.Insertar_nuevo_curso(TxtCodigoAlumno.Text.ToString(),TxtNombreCurso.Text.ToString());
                 OleDbCommand cmd = new OleDbCommand(consulta, con);
 
                 cmd.ExecuteNonQuery();
@@ -99,7 +99,7 @@ namespace LayerFrames
                 //string consulta = "SELECT * FROM curso WHERE curso.codigo_alumno = '"+codigo+"';";
                // string consulta = "SELECT * FROM curso ;";
                 //cmd.CommandText = consulta;
-                cmd.CommandText = Funciones.Selecciones.Seleccion_Cursos(codigo);
+                cmd.CommandText = Funciones.CrearConsultas.Seleccion_Cursos(codigo);
                 con.Close();
                 OleDbDataAdapter da = new OleDbDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -123,7 +123,7 @@ namespace LayerFrames
                 
                 OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
                 //con.Open();
-                string consulta = Selecciones.hay_Notas_curso(int.Parse(LblCodigoCurso.Text));
+                string consulta = CrearConsultas.hay_Notas_curso(int.Parse(LblCodigoCurso.Text));
                 OleDbCommand cmd = new OleDbCommand(consulta, con);
                 OleDbDataReader reader = cmd.ExecuteReader();
                 if (reader.HasRows)

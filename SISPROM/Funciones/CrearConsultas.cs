@@ -9,7 +9,7 @@ using DBconection;
 
 namespace Funciones
 {
-    public static class Selecciones
+    public static class CrearConsultas
     {
         public static string Existe_Usuario(string codigo)
         {

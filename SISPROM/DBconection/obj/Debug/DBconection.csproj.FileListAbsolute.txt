@@ -12,6 +12,5 @@ C:\Users\Usuario\Desktop\MyCdS\SISPROM\DBconection\obj\Debug\DBconection.pdb
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\DBconection\bin\Debug\DBconection.dll.config
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\DBconection\bin\Debug\DBconection.dll
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\DBconection\bin\Debug\DBconection.pdb
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\DBconection\obj\Debug\DBconection.csprojResolveAssemblyReference.cache
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\DBconection\obj\Debug\DBconection.dll
 C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\DBconection\obj\Debug\DBconection.pdb

@@ -43,7 +43,7 @@
     <Compile Include="Botones.cs" />
     <Compile Include="Funciones_Texto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Selecciones.cs" />
+    <Compile Include="CrearConsultas.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DBconection\DBconection.csproj">
