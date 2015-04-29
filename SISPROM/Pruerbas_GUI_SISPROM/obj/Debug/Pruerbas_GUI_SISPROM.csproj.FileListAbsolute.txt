@@ -1,5 +1,0 @@
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruerbas_GUI_SISPROM\bin\Debug\Pruerbas_GUI_SISPROM.dll
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruerbas_GUI_SISPROM\bin\Debug\Pruerbas_GUI_SISPROM.pdb
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruerbas_GUI_SISPROM\obj\Debug\Pruerbas_GUI_SISPROM.csprojResolveAssemblyReference.cache
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruerbas_GUI_SISPROM\obj\Debug\Pruerbas_GUI_SISPROM.dll
-C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruerbas_GUI_SISPROM\obj\Debug\Pruerbas_GUI_SISPROM.pdb
