@@ -49,5 +49,16 @@ namespace Funciones
             string consulta = "Select * from notafinal where codigo_curso = " + codigoCurso + ";";
             return consulta;
         }
+        public static string insert_alumno(string codigo , string nombre , string apepat , string apemat , string facu , string carre)
+        {
+            string datos = "INSERT INTO alumno VALUES ('"
+                + codigo + "','"
+                + nombre + "','"
+                + apepat + "','"
+                + apemat + "','"
+                + facu + "','"
+                + carre + "')";
+            return datos;
+        }
     }
 }

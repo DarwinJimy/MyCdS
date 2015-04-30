@@ -31,14 +31,17 @@ namespace LayerFrames
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
+            string codigo = TxtCodigoAlumno.Text;
+            string nombre = TxtNombreAlumno.Text;
+            string apepat = TxtApellidoPaterno.Text;
+            string apemat = TxtApellidoMaterno.Text;
+            string facu = TxtFacultad.Text;
+            string carre = TxtCarrera.Text;
+
             try
             {
-                OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
-                //con.Open();
-                string datos = insertar_datos_alumno();
-                OleDbCommand cmd = new OleDbCommand(datos, con);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Registro guardado", "SISPROM");
+
+                Funciones.Ejecuciones.Registro_Alumno(Funciones.CrearConsultas.insert_alumno(TxtCodigoAlumno.Text.ToString() , TxtNombreAlumno.Text.ToString() ,TxtApellidoPaterno.Text.ToString(), TxtApellidoMaterno.Text.ToString(),TxtFacultad.Text.ToString(),TxtCarrera.Text.ToString()));
                 this.Hide();
                 inicio.Show();
 
@@ -58,27 +61,7 @@ namespace LayerFrames
 
         }
 
-        private string insertar_datos_alumno()
-        {
-            string codigo = TxtCodigoAlumno.Text;
-            string nombre = TxtNombreAlumno.Text;
-            string apepat = TxtApellidoPaterno.Text;
-            string apemat = TxtApellidoMaterno.Text;
-            string facu = TxtFacultad.Text;
-            string carre = TxtCarrera.Text;
-
-            string datos = "INSERT INTO alumno VALUES ('"
-                + codigo + "','"
-                + nombre + "','"
-                + apepat + "','"
-                + apemat + "','"
-                + facu + "','"
-                + carre + "')";
-
-
-            return datos;
-
-        }
+       
 
         private void TxtCodigoAlumno_TextChanged(object sender, EventArgs e)
         {

@@ -122,6 +122,7 @@ namespace LayerFrames
             if (int.Parse(TxtNF2.Text.ToString()) > 20 || int.Parse(TxtNF2.Text.ToString()) < 0)
             {
                 MessageBox.Show("Ingrese una nota correctamente", "SISPROM");
+                
             }
             else
             {

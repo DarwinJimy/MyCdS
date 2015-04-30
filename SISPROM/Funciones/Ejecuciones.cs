@@ -12,14 +12,20 @@ namespace Funciones
     public class Ejecuciones
     {
 
-        public void Registro_Alumno(string datos)
+        public static void Registro_Alumno(string datos)
         {
             OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
             //con.Open();
             //datos = ();
             OleDbCommand cmd = new OleDbCommand(datos, con);
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("Registro guardado", "SISPROM");
+            if (cmd.ExecuteNonQuery() == 1)
+            {
+                MessageBox.Show("Registro guardado", "SISPROM");
+            }
+            else
+            {
+                MessageBox.Show("No se registro al alumno" , "SISPROM");
+            }
         }
     }
 }
