@@ -22,7 +22,7 @@ namespace Funciones.Tests
             b1.Enabled = true;
             b2.Enabled = true;
             Botones btns = new Botones();
-            // Act
+            // Fact
             vRetornado = btns.activar_desactivar_botones(b1, b2);
             // Assert
             Assert.AreEqual(true, vRetornado, "bien");

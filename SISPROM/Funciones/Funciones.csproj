@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Botones.cs" />
+    <Compile Include="Ejecuciones.cs" />
     <Compile Include="Funciones_Texto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CrearConsultas.cs" />

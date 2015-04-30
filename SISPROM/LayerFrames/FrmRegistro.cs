@@ -17,6 +17,7 @@ namespace LayerFrames
 {
     public partial class FrmRegistro : Form
     {
+        FrmInicio inicio = new FrmInicio();
         public FrmRegistro()
         {
             InitializeComponent();
@@ -25,7 +26,7 @@ namespace LayerFrames
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
             Close();
-
+            inicio.Show();
         }
 
         private void BtnGuardar_Click(object sender, EventArgs e)
@@ -38,7 +39,8 @@ namespace LayerFrames
                 OleDbCommand cmd = new OleDbCommand(datos, con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Registro guardado", "SISPROM");
-                Close();
+                this.Hide();
+                inicio.Show();
 
             }
             catch (DBConcurrencyException ex)
