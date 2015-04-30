@@ -13,6 +13,7 @@ namespace Funciones.Tests
     {
         Button b1 = new Button();
         Button b2 = new Button();
+
         [TestMethod()]
         public void activar_desactivar_botonesTest()
         {
@@ -28,6 +29,7 @@ namespace Funciones.Tests
             Assert.AreEqual(true, vRetornado, "bien");
             
         }
+
         [TestMethod()]
         public void activar_desactivar_botonesFalsoTest()
         {
@@ -42,6 +44,7 @@ namespace Funciones.Tests
             Assert.AreEqual(true, vRetornado, "bien");
 
         }
+
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void activar_desactivar_botonesErroresTest()
