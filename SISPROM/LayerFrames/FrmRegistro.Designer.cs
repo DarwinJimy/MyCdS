@@ -47,6 +47,8 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnGuardar = new System.Windows.Forms.Button();
+            this.CmbFacu = new System.Windows.Forms.ComboBox();
+            this.CmbCarrera = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -139,6 +141,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.CmbCarrera);
+            this.groupBox2.Controls.Add(this.CmbFacu);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.TxtCarrera);
@@ -225,6 +229,30 @@
             this.BtnGuardar.UseVisualStyleBackColor = true;
             this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
+            // CmbFacu
+            // 
+            this.CmbFacu.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.CmbFacu.FormattingEnabled = true;
+            this.CmbFacu.Items.AddRange(new object[] {
+            "INGENIERIAS",
+            "HUMANIDADES",
+            "ADMINISTRACION Y NEGOCIOS"});
+            this.CmbFacu.Location = new System.Drawing.Point(116, 31);
+            this.CmbFacu.Name = "CmbFacu";
+            this.CmbFacu.Size = new System.Drawing.Size(216, 21);
+            this.CmbFacu.TabIndex = 4;
+            this.CmbFacu.SelectedIndexChanged += new System.EventHandler(this.CmbFacu_SelectedIndexChanged);
+            // 
+            // CmbCarrera
+            // 
+            this.CmbCarrera.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.CmbCarrera.FormattingEnabled = true;
+            this.CmbCarrera.Location = new System.Drawing.Point(116, 58);
+            this.CmbCarrera.Name = "CmbCarrera";
+            this.CmbCarrera.Size = new System.Drawing.Size(216, 21);
+            this.CmbCarrera.TabIndex = 5;
+            this.CmbCarrera.SelectedIndexChanged += new System.EventHandler(this.CmbCarrera_SelectedIndexChanged);
+            // 
             // FrmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -270,5 +298,7 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Button BtnGuardar;
+        private System.Windows.Forms.ComboBox CmbCarrera;
+        private System.Windows.Forms.ComboBox CmbFacu;
     }
 }

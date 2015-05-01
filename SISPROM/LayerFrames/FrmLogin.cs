@@ -71,6 +71,11 @@ namespace LayerFrames
             TxtClave.CharacterCasing = CharacterCasing.Upper;
         }
 
+        private void TxtClave_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
        
     }
 }

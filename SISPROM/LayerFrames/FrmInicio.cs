@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using DBconection;
+using Funciones;
 
 namespace LayerFrames
 {
@@ -32,6 +35,42 @@ namespace LayerFrames
             login.Show();
             this.Hide();
             
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmInicio_Load(object sender, EventArgs e)
+        {
+             try
+            {
+                OleDbConnection con = DBconection.Conexxxxxion.realizar_Conexion();
+                //con.Open();
+                string consulta = "Select * from alumno";
+                OleDbCommand cmd = new OleDbCommand(consulta, con);
+                
+                //MessageBox.Show("resultado: " + cmd.ExecuteReader().ToString());
+                //cmd.ExecuteNonQuery();
+
+                OleDbDataReader reader = cmd.ExecuteReader();
+
+
+                if (reader.HasRows)
+                {
+                    BtnRegistro.Enabled = false;
+                }
+                else
+                {
+                    BtnInicioSesion.Enabled = false;
+                }
+
+            }
+             catch (Exception ex)
+             {
+                 MessageBox.Show(ex.Message);
+             }
         }
         
        

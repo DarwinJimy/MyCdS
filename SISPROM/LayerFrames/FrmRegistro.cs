@@ -83,6 +83,50 @@ namespace LayerFrames
             TxtCarrera.CharacterCasing = CharacterCasing.Upper;
         }
 
+        private void CmbFacu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CmbFacu.SelectedIndex == 0)
+            {
+
+                CmbCarrera.Items.Clear();
+                CmbCarrera.Items.Add("SISTEMAS");
+                CmbCarrera.Items.Add("SEGURIDAD");
+                CmbCarrera.Items.Add("INDUSTRIAL");
+                CmbCarrera.Items.Add("MINAS");
+                // Seleccion del primer item de carrera
+                CmbCarrera.SelectedIndex = 0;
+
+
+            }
+            else if (CmbFacu.SelectedIndex == 1)
+            {
+                CmbCarrera.Items.Clear();
+                CmbCarrera.Items.Add("DERECHO");
+                // Seleccion del primer item de carrera
+                CmbCarrera.SelectedIndex = 0;
+
+            }
+            else
+            {
+                CmbCarrera.Items.Clear();
+                CmbCarrera.Items.Add("NEGOCIOS INTERNACIONALES");
+                CmbCarrera.Items.Add("ADMINISTRACION Y MARKETING");
+                CmbCarrera.Items.Add("HOTELERIA Y TURISMO");
+                CmbCarrera.Items.Add("CONTABILIDAD");
+                CmbCarrera.Items.Add("ADMINISTRACION DE EMPRESAS");
+                CmbCarrera.Items.Add("ADMINISTRACIO Y FINANZAS");
+                // Seleccion del primer item de carrera
+                CmbCarrera.SelectedIndex=0;
+            }
+            TxtFacultad.Text = CmbFacu.SelectedItem.ToString();
+        }
+
+        private void CmbCarrera_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TxtCarrera.Text = CmbCarrera.SelectedItem.ToString();
+
+        }
+
        
     }
 }

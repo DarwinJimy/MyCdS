@@ -46,6 +46,7 @@
             this.TxtClave.Size = new System.Drawing.Size(153, 20);
             this.TxtClave.TabIndex = 1;
             this.TxtClave.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtClave.TextChanged += new System.EventHandler(this.TxtClave_TextChanged);
             // 
             // label2
             // 

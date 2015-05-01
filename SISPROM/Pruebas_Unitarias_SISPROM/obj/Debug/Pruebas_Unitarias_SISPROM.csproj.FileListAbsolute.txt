@@ -14,3 +14,5 @@ C:\Users\Usuario\Desktop\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\DBcon
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\obj\Debug\Pruebas_Unitarias_SISPROM.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\obj\Debug\Pruebas_Unitarias_SISPROM.dll
 C:\Users\Usuario\Desktop\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\obj\Debug\Pruebas_Unitarias_SISPROM.pdb
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\DBconection.dll
+C:\Users\Darwin Jimy\Documents\GitHub\MyCdS\SISPROM\Pruebas_Unitarias_SISPROM\bin\Debug\DBconection.pdb
